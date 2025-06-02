@@ -1,0 +1,21 @@
+# See https://github.com/github/gitignore/blob/main/VisualStudio.gitignore for full template
+
+# Build artifacts
+bin/
+obj/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# OSX
+.DS_Store
+
+# VS Code
+.vscode/
+
+# SQLite 数据库文件（如果你想暂时不推送 .db 文件，可在这里忽略；但也可以在 GitHub 上显示示例数据）
+*.db
