@@ -6,3 +6,14 @@
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+@if (User.Identity.IsAuthenticated)
+{
+    <p>欢迎，@User.Identity.Name！</p>
+    <p>
+        <a asp-controller="BankAccount" asp-action="Index">我的账户</a>
+    </p>
+}
+else
+{
+    <p>请先 <a asp-controller="Account" asp-action="Login">登录</a> 或 <a asp-controller="Account" asp-action="Register">注册</a>。</p>
+}
