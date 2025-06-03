@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleBankApp.Web", "SimpleBankApp.Web\SimpleBankApp.Web.csproj", "{EEE87D9E-0267-4D7B-8215-EE9E32C45FFA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleBankApp.Data", "SimpleBankApp.Data\SimpleBankApp.Data.csproj", "{F4458D97-4703-432A-A2C3-A60F0881E639}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,17 @@ Global
 		{EEE87D9E-0267-4D7B-8215-EE9E32C45FFA}.Release|x64.Build.0 = Release|Any CPU
 		{EEE87D9E-0267-4D7B-8215-EE9E32C45FFA}.Release|x86.ActiveCfg = Release|Any CPU
 		{EEE87D9E-0267-4D7B-8215-EE9E32C45FFA}.Release|x86.Build.0 = Release|Any CPU
+		{F4458D97-4703-432A-A2C3-A60F0881E639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4458D97-4703-432A-A2C3-A60F0881E639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4458D97-4703-432A-A2C3-A60F0881E639}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F4458D97-4703-432A-A2C3-A60F0881E639}.Debug|x64.Build.0 = Debug|Any CPU
+		{F4458D97-4703-432A-A2C3-A60F0881E639}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F4458D97-4703-432A-A2C3-A60F0881E639}.Debug|x86.Build.0 = Debug|Any CPU
+		{F4458D97-4703-432A-A2C3-A60F0881E639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4458D97-4703-432A-A2C3-A60F0881E639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4458D97-4703-432A-A2C3-A60F0881E639}.Release|x64.ActiveCfg = Release|Any CPU
+		{F4458D97-4703-432A-A2C3-A60F0881E639}.Release|x64.Build.0 = Release|Any CPU
+		{F4458D97-4703-432A-A2C3-A60F0881E639}.Release|x86.ActiveCfg = Release|Any CPU
+		{F4458D97-4703-432A-A2C3-A60F0881E639}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
